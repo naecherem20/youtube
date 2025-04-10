@@ -29,15 +29,15 @@ header{
     justify-content: center;
     display: flex;
     align-items: center;
-    flex-shrink: 0;
+    flex-shrink: 0.8;
     
     .youtube-logo{
         width: 51%;
     }
-    .menu{
-        width: 12%;
-        margin-right: 20px;
-    }
+}
+.menu{
+    width: 12%;
+    margin-right: 20px;
 }
 
 .nav{
@@ -116,7 +116,7 @@ header{
     align-items: center;
     position: relative;
     cursor: pointer;
-    flex-shrink: 0;
+    flex-shrink: 0.5;
     
 }
 .profile-icon{
